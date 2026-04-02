@@ -172,7 +172,7 @@ header > a{
     background-image: url(media/promo-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 100vh; 
+    height: fit-content; 
     /* flex-wrap: wrap; */
     display: flex; 
     /* padding: 100px 20px; */
@@ -250,7 +250,7 @@ header > a{
     /* border: 2px solid green; */
 }
 .partner img{
-    height: 330px;
+    /* height: 330px; */
     border-radius: 20px; 
     margin-top: 20px;
 
@@ -695,7 +695,7 @@ header > a{
         height: 80dvh;
 }  
 .partner{
-    height: fit-content;
+    height: 100%;
     width: 90%;
     margin: 0;   
     padding: 0; 
@@ -754,7 +754,7 @@ header a{
     width: 80%;
 }
 .sect3{
-    height: 100dvh;
+    height: fit-content;
 }  
 .sect4{
     height: fit-content;
@@ -830,4 +830,8 @@ header a{
     /* display: none; */
 }
     
+}
+
+.sect4{
+    height: fit-content;
 }
