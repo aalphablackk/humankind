@@ -757,7 +757,7 @@ header a{
     height: 100dvh;
 }  
 .sect4{
-    height: 110dvh;
+    height: fit-content;
 }  
 .partner{
     height: fit-content;
@@ -827,7 +827,7 @@ header a{
 }
 .quotee{
     width: 100%;
-    display: none;
+    /* display: none; */
 }
     
 }
