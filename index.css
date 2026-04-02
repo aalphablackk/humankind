@@ -257,7 +257,7 @@ header > a{
 }
 .partner1{
     /* place-content: top; */
-    height: 75dvh;
+    height: fit-content;
 
 }
 .partner h1{
@@ -690,18 +690,19 @@ header > a{
         padding: 0; 
     } 
     .sect4{
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         /* border: 2px solid firebrick; */
-        height: 80dvh;
+        height: fit-content;
 }  
 .partner{
-    height: 100%;
     width: 90%;
     margin: 0;   
     padding: 0; 
+    border: 2px solid   firebrick;
 } 
 .partner img{
     width: 100%;
+   
 }
 .grid{
     /* grid-template-columns: repeat(4, 1fr); */
@@ -770,9 +771,7 @@ header a{
 .partner h1{
     font-size: 30px;
 }
-.partner1 img{
-    height: fit-content;
-}
+
 .grid{
     width: 99%;
     margin: auto;
